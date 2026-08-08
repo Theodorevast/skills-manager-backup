@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "faf5d54d-3628-403a-b889-a1b6c49825c5",
+  "path": "creative-director",
+  "path_key": "creative-director",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\creative-director",
+    "branch": null
+  }
+}

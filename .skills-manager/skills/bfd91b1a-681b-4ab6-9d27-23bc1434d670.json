@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bfd91b1a-681b-4ab6-9d27-23bc1434d670",
+  "path": "huashu-design",
+  "path_key": "huashu-design",
+  "enabled": true,
+  "tags": [
+    "花叔"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/alchaincyf/huashu-design.git",
+    "subpath": null,
+    "branch": null
+  }
+}

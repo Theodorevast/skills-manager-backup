@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc5a71f7-14aa-4d61-8525-1b9aeaa84c1d",
+  "path": "slack-gif-creator",
+  "path_key": "slack-gif-creator",
+  "enabled": true,
+  "tags": [
+    "An"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/anthropics/skills.git",
+    "subpath": "skills\\slack-gif-creator",
+    "branch": null
+  }
+}

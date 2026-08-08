@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c382823a-4daa-48ff-b496-a5099ee966c6",
+  "path": "claude-api",
+  "path_key": "claude-api",
+  "enabled": true,
+  "tags": [
+    "An"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/anthropics/skills.git",
+    "subpath": "skills\\claude-api",
+    "branch": null
+  }
+}

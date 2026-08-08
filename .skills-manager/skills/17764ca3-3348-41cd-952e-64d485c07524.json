@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "17764ca3-3348-41cd-952e-64d485c07524",
+  "path": "clone-website",
+  "path_key": "clone-website",
+  "enabled": true,
+  "tags": [
+    "克隆"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/JCodesMore/ai-website-cloner-template.git",
+    "subpath": ".github\\skills\\clone-website",
+    "branch": null
+  }
+}

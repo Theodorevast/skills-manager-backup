@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "69d976ee-e83e-4f28-a841-fd4318c2cf3d",
+  "path": "deck-swiss-international",
+  "path_key": "deck-swiss-international",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\deck-swiss-international",
+    "branch": null
+  }
+}

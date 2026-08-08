@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "774f53c2-0f99-4dab-b333-f9b31db3d7b6",
+  "path": "fal-image-edit",
+  "path_key": "fal-image-edit",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\fal-image-edit",
+    "branch": null
+  }
+}

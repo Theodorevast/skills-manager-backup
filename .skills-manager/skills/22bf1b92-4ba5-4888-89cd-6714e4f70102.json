@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "22bf1b92-4ba5-4888-89cd-6714e4f70102",
+  "path": "competitive-ads-extractor",
+  "path_key": "competitive-ads-extractor",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\competitive-ads-extractor",
+    "branch": null
+  }
+}

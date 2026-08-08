@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "e6666894-c731-4138-b288-42d603ad509c",
+  "path": "export-download-debugging",
+  "path_key": "export-download-debugging",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\export-download-debugging",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d9501697-0d3b-479c-9162-c4da544a3c67",
+  "path": "mcp-builder",
+  "path_key": "mcp-builder",
+  "enabled": true,
+  "tags": [
+    "An"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/anthropics/skills.git",
+    "subpath": "skills\\mcp-builder",
+    "branch": null
+  }
+}

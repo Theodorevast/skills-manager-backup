@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "69b6df1b-a649-4fac-86bd-c082df0a803c",
+  "path": "card-xiaohongshu",
+  "path_key": "card-xiaohongshu",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\card-xiaohongshu",
+    "branch": null
+  }
+}

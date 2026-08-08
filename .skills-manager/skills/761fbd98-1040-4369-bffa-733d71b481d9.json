@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "761fbd98-1040-4369-bffa-733d71b481d9",
+  "path": "fal-train",
+  "path_key": "fal-train",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\fal-train",
+    "branch": null
+  }
+}

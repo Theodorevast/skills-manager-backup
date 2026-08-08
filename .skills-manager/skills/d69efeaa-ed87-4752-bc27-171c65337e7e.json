@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d69efeaa-ed87-4752-bc27-171c65337e7e",
+  "path": "industrial-brutalist-ui",
+  "path_key": "industrial-brutalist-ui",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\brutalist-skill",
+    "branch": null
+  }
+}

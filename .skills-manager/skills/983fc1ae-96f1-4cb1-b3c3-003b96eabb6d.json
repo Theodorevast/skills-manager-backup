@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "983fc1ae-96f1-4cb1-b3c3-003b96eabb6d",
+  "path": "design-md",
+  "path_key": "design-md",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\design-md",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "fc33b8f5-aeb8-4e84-9534-221d2f04f609",
+  "path": "huashu-nuwa",
+  "path_key": "huashu-nuwa",
+  "enabled": true,
+  "tags": [
+    "花叔"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/alchaincyf/nuwa-skill.git",
+    "subpath": null,
+    "branch": null
+  }
+}

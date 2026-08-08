@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "881f0ad4-582a-49f7-9454-b882939879be",
+  "path": "figma-create-design-system-rules",
+  "path_key": "figma-create-design-system-rules",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\figma-create-design-system-rules",
+    "branch": null
+  }
+}

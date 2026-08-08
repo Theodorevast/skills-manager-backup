@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "524c6f1a-63d3-4ec5-8af6-3543fa5d7cd1",
+  "path": "flutter-animating-apps",
+  "path_key": "flutter-animating-apps",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\flutter-animating-apps",
+    "branch": null
+  }
+}

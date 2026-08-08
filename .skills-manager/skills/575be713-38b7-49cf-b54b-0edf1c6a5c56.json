@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "575be713-38b7-49cf-b54b-0edf1c6a5c56",
+  "path": "fal-3d",
+  "path_key": "fal-3d",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\fal-3d",
+    "branch": null
+  }
+}

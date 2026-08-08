@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "364b70a6-ec33-4004-81bd-193c54ce38ec",
+  "path": "frame-data-chart-nyt",
+  "path_key": "frame-data-chart-nyt",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-data-chart-nyt",
+    "branch": null
+  }
+}

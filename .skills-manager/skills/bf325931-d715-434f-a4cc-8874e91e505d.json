@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf325931-d715-434f-a4cc-8874e91e505d",
+  "path": "algorithmic-art-2",
+  "path_key": "algorithmic-art-2",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\algorithmic-art",
+    "branch": null
+  }
+}

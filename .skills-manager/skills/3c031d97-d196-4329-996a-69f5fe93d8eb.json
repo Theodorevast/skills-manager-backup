@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3c031d97-d196-4329-996a-69f5fe93d8eb",
+  "path": "deck-open-slide-canvas",
+  "path_key": "deck-open-slide-canvas",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\deck-open-slide-canvas",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5006e326-fadc-487c-ad6b-896aec791051",
+  "path": "article-magazine",
+  "path_key": "article-magazine",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\article-magazine",
+    "branch": null
+  }
+}

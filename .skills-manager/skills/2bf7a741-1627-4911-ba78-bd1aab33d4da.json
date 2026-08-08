@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2bf7a741-1627-4911-ba78-bd1aab33d4da",
+  "path": "impeccable-design-polish",
+  "path_key": "impeccable-design-polish",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\impeccable-design-polish",
+    "branch": null
+  }
+}

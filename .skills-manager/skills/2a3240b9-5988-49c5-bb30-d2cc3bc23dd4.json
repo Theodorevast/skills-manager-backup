@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2a3240b9-5988-49c5-bb30-d2cc3bc23dd4",
+  "path": "frame-logo-outro",
+  "path_key": "frame-logo-outro",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-logo-outro",
+    "branch": null
+  }
+}

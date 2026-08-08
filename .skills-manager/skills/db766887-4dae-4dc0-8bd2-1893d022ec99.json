@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "db766887-4dae-4dc0-8bd2-1893d022ec99",
+  "path": "web-shader-extractor",
+  "path_key": "web-shader-extractor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/lixiaolin94/skills.git",
+    "subpath": "web-shader-extractor",
+    "branch": null
+  }
+}

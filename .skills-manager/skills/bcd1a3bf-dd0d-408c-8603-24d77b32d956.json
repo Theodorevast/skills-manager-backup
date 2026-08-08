@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bcd1a3bf-dd0d-408c-8603-24d77b32d956",
+  "path": "hatch-pet",
+  "path_key": "hatch-pet",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\hatch-pet",
+    "branch": null
+  }
+}

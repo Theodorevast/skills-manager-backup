@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "227a0833-5160-4119-a319-413bfcb3f017",
+  "path": "figma-create-new-file",
+  "path_key": "figma-create-new-file",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\figma-create-new-file",
+    "branch": null
+  }
+}

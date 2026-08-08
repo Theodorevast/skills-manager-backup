@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "234efcd3-a9da-4aa5-a529-e2040148b7d5",
+  "path": "mockup-device-3d",
+  "path_key": "mockup-device-3d",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\mockup-device-3d",
+    "branch": null
+  }
+}

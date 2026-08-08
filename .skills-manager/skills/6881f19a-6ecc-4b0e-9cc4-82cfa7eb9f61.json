@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6881f19a-6ecc-4b0e-9cc4-82cfa7eb9f61",
+  "path": "html-ppt-retro-quarterly-review",
+  "path_key": "html-ppt-retro-quarterly-review",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\html-ppt-retro-quarterly-review",
+    "branch": null
+  }
+}

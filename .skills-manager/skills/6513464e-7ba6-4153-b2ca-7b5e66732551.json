@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6513464e-7ba6-4153-b2ca-7b5e66732551",
+  "path": "ecommerce-image-workflow",
+  "path_key": "ecommerce-image-workflow",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\ecommerce-image-workflow",
+    "branch": null
+  }
+}

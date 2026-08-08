@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "aee427bd-7a17-4067-9260-fc9d4d0c4ebb",
+  "path": "brandkit",
+  "path_key": "brandkit",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\brandkit",
+    "branch": null
+  }
+}

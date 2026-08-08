@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "64a5110c-9be6-43fd-91f4-a34e6a33b2ac",
+  "name": "Anthropic",
+  "description": null,
+  "icon": "briefcase",
+  "sort_order": 999
+}

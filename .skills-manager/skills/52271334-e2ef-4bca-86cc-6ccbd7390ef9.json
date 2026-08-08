@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "52271334-e2ef-4bca-86cc-6ccbd7390ef9",
+  "path": "frame-liquid-bg-hero",
+  "path_key": "frame-liquid-bg-hero",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-liquid-bg-hero",
+    "branch": null
+  }
+}

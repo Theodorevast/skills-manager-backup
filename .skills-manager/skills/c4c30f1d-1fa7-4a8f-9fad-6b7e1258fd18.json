@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4c30f1d-1fa7-4a8f-9fad-6b7e1258fd18",
+  "path": "brand-guidelines-2",
+  "path_key": "brand-guidelines-2",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\brand-guidelines",
+    "branch": null
+  }
+}

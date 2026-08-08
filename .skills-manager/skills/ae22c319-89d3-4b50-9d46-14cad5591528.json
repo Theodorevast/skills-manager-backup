@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ae22c319-89d3-4b50-9d46-14cad5591528",
+  "path": "8-bit-orbit-video-template",
+  "path_key": "8-bit-orbit-video-template",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\8-bit-orbit-video-template",
+    "branch": null
+  }
+}

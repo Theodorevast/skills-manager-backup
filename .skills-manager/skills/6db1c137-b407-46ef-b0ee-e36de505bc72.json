@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "6db1c137-b407-46ef-b0ee-e36de505bc72",
+  "path": "figma-code-connect-components",
+  "path_key": "figma-code-connect-components",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\figma-code-connect-components",
+    "branch": null
+  }
+}

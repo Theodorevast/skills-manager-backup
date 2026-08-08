@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "734064c3-8695-4b2e-a1ea-9a5450556a41",
+  "path": "image-to-code-2",
+  "path_key": "image-to-code-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Leonxlnx/taste-skill.git",
+    "subpath": "skills\\image-to-code-skill",
+    "branch": null
+  }
+}

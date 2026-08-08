@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "211baf21-8225-457f-b47b-7c4a4acef064",
+  "path": "deck-guizang-editorial",
+  "path_key": "deck-guizang-editorial",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\deck-guizang-editorial",
+    "branch": null
+  }
+}

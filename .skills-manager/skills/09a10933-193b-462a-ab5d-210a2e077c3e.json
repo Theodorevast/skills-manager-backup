@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "09a10933-193b-462a-ab5d-210a2e077c3e",
+  "path": "data-report",
+  "path_key": "data-report",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\data-report",
+    "branch": null
+  }
+}

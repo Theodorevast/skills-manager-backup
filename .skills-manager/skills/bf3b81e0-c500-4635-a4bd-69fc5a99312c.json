@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf3b81e0-c500-4635-a4bd-69fc5a99312c",
+  "path": "frame-macos-notification",
+  "path_key": "frame-macos-notification",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-macos-notification",
+    "branch": null
+  }
+}

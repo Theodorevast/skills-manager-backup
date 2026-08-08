@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf7f1469-2759-4b95-8eaf-74062df7c92b",
+  "path": "brand-extract",
+  "path_key": "brand-extract",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\brand-extract",
+    "branch": null
+  }
+}

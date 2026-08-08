@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0a29741b-51e4-4f51-b88e-52ff43dc5860",
+  "path": "image-enhancer",
+  "path_key": "image-enhancer",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\image-enhancer",
+    "branch": null
+  }
+}

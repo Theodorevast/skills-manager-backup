@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "8c0f5c9a-80e6-42cc-9026-97a73f5ef36d",
+  "path": "enhance-prompt",
+  "path_key": "enhance-prompt",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\enhance-prompt",
+    "branch": null
+  }
+}

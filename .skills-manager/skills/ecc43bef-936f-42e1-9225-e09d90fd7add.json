@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ecc43bef-936f-42e1-9225-e09d90fd7add",
+  "path": "frontend-skill",
+  "path_key": "frontend-skill",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frontend-skill",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "65ff3073-4505-4acc-bd50-22777041f99a",
+  "path": "emilkowalski-motion",
+  "path_key": "emilkowalski-motion",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\emilkowalski-motion",
+    "branch": null
+  }
+}

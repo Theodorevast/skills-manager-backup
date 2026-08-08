@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "af445e2a-ebb2-467a-bed4-8b0e824513de",
+  "path": "frame-flowchart-sticky",
+  "path_key": "frame-flowchart-sticky",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-flowchart-sticky",
+    "branch": null
+  }
+}

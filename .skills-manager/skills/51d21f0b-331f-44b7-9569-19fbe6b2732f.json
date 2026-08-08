@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "51d21f0b-331f-44b7-9569-19fbe6b2732f",
+  "path": "apple-hig",
+  "path_key": "apple-hig",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\apple-hig",
+    "branch": null
+  }
+}

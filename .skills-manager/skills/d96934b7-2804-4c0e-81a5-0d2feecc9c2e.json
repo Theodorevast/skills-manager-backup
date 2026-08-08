@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "d96934b7-2804-4c0e-81a5-0d2feecc9c2e",
+  "path": "card-twitter",
+  "path_key": "card-twitter",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\card-twitter",
+    "branch": null
+  }
+}

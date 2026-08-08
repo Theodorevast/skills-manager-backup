@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "2e2ee86f-8277-4701-8649-322f997c706e",
+  "path": "agent-browser",
+  "path_key": "agent-browser",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\agent-browser",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c638f263-ccce-46a2-a4bd-a37488592c6b",
+  "path": "frame-light-leak-cinema",
+  "path_key": "frame-light-leak-cinema",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-light-leak-cinema",
+    "branch": null
+  }
+}

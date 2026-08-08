@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c204096d-4013-4664-836d-2f4568fbdd83",
+  "path": "faq-page",
+  "path_key": "faq-page",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\faq-page",
+    "branch": null
+  }
+}

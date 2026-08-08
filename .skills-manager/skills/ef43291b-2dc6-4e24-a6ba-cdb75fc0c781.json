@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "ef43291b-2dc6-4e24-a6ba-cdb75fc0c781",
+  "path": "frame-glitch-title",
+  "path_key": "frame-glitch-title",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\frame-glitch-title",
+    "branch": null
+  }
+}

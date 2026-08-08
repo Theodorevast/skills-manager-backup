@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c082aca3-bed0-41a3-8fd5-8b790ef40421",
+  "path": "fal-video-edit",
+  "path_key": "fal-video-edit",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\fal-video-edit",
+    "branch": null
+  }
+}

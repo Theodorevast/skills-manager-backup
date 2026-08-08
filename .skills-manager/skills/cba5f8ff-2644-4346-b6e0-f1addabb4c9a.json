@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "cba5f8ff-2644-4346-b6e0-f1addabb4c9a",
+  "path": "imagegen-frontend-mobile",
+  "path_key": "imagegen-frontend-mobile",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\imagegen-frontend-mobile",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d600814-8be4-4742-a69b-51a2f6dc4fd2",
+  "path": "industry-resume-toolkit",
+  "path_key": "industry-resume-toolkit",
+  "enabled": true,
+  "tags": [
+    "简历"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/shangsitongshizaitiantang/industry-resume-toolkit.git",
+    "subpath": "skill",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "979c9b33-a74b-4005-ac82-a7a24abcdd08",
+  "path": "gsap-utils",
+  "path_key": "gsap-utils",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\gsap-utils",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "847bdc7b-0ca7-4d83-8095-6c8249450cd5",
+  "path": "gif-sticker-maker",
+  "path_key": "gif-sticker-maker",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\gif-sticker-maker",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "9cc28854-d5ca-4afe-b856-96ece352bce7",
+  "path": "figma-generate-library",
+  "path_key": "figma-generate-library",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\figma-generate-library",
+    "branch": null
+  }
+}

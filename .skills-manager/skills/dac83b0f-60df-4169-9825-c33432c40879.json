@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "dac83b0f-60df-4169-9825-c33432c40879",
+  "path": "gpt-taste",
+  "path_key": "gpt-taste",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\gpt-tasteskill",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "f4ae197c-9edf-4e01-940f-119cbfdc8665",
+  "path": "full-output-enforcement",
+  "path_key": "full-output-enforcement",
+  "enabled": true,
+  "tags": [
+    "open design"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/nexu-io/open-design.git",
+    "subpath": "skills\\output-skill",
+    "branch": null
+  }
+}
