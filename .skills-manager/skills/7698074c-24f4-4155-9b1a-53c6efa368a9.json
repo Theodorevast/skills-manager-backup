@@ -4,7 +4,9 @@
   "path": "brandkit-2",
   "path_key": "brandkit-2",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "设计"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/Leonxlnx/taste-skill.git",

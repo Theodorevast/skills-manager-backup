@@ -4,7 +4,9 @@
   "path": "web-shader-extractor",
   "path_key": "web-shader-extractor",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "设计"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/lixiaolin94/skills.git",
