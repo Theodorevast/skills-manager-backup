@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6eeee3c-77e0-4b3f-948c-83882b9b703d",
+  "path": "agent-reach",
+  "path_key": "agent-reach",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Panniantong/Agent-Reach.git",
+    "subpath": "agent_reach/skill",
+    "branch": null
+  }
+}
