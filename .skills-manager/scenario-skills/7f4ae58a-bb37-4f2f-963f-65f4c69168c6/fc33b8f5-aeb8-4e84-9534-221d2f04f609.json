@@ -5,6 +5,8 @@
   "sort_order": 0,
   "tools": {
     "claude_code": false,
-    "codex": true
+    "codex": true,
+    "github_copilot": true,
+    "opencode": true
   }
 }
