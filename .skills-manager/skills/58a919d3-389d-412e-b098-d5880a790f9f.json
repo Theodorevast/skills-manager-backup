@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "58a919d3-389d-412e-b098-d5880a790f9f",
+  "path": "tait-crt-interface-skill",
+  "path_key": "tait-crt-interface-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/TaiT-tt/tait-crt-interface-skill.git",
+    "subpath": null,
+    "branch": null
+  }
+}
