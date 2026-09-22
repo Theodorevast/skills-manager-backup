@@ -1,0 +1,6 @@
+interface:
+  display_name: "搜索调度 Search Hub"
+  short_description: "复用本机 F 盘搜索渠道，跨平台检索、筛选时间窗口并核验原文来源"
+  default_prompt: "使用 $search-hub 搜索我指定的主题，按要求核对时间、读取原文并附来源。"
+policy:
+  allow_implicit_invocation: true
