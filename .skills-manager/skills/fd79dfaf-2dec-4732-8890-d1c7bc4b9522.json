@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fd79dfaf-2dec-4732-8890-d1c7bc4b9522",
+  "path": "opencli-browser-sitemap",
+  "path_key": "opencli-browser-sitemap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

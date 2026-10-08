@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f04eaa5c-f1e4-4837-8bde-036090d54cd1",
+  "path": "eleven-voice-changer",
+  "path_key": "eleven-voice-changer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

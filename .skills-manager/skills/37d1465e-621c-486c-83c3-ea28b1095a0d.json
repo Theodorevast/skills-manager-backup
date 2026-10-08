@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37d1465e-621c-486c-83c3-ea28b1095a0d",
+  "path": "logo-animation",
+  "path_key": "logo-animation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

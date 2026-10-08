@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude API 切换"
+  short_description: "切换 Claude CLI 与桌面端 API，备份聊天记录并支持配置回退"
+  default_prompt: "使用 $claude-api-switcher 切换我的 Claude API，保留已有聊天记录并验证两端连接。"

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "62bed3db-3174-4638-9e4c-78a9ed2dec61",
+  "path": "claude-api-switcher",
+  "path_key": "claude-api-switcher",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

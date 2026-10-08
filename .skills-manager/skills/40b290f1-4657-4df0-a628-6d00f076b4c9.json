@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "40b290f1-4657-4df0-a628-6d00f076b4c9",
+  "path": "yichen-jianying-edit",
+  "path_key": "yichen-jianying-edit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac6943a6-f952-4695-871b-f79640135da0",
+  "path": "shot-composition",
+  "path_key": "shot-composition",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

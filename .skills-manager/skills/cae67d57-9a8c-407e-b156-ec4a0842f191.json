@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cae67d57-9a8c-407e-b156-ec4a0842f191",
+  "path": "motion-background",
+  "path_key": "motion-background",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

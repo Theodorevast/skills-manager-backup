@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "479ac058-4d7c-4a2f-ba52-ddd5d360a0b4",
+  "path": "motion-art-direction",
+  "path_key": "motion-art-direction",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

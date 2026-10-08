@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6df749cb-ec88-4cf8-b4ec-b0faf04f0355",
+  "path": "color-motion",
+  "path_key": "color-motion",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

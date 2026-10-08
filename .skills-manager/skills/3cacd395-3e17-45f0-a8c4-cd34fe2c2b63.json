@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3cacd395-3e17-45f0-a8c4-cd34fe2c2b63",
+  "path": "kinetic-typography",
+  "path_key": "kinetic-typography",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

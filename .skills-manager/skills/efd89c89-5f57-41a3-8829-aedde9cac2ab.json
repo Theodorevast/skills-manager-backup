@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "efd89c89-5f57-41a3-8829-aedde9cac2ab",
+  "path": "eleven-sound-effects",
+  "path_key": "eleven-sound-effects",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

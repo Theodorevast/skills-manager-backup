@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7bd9297e-a0ed-4d0c-80b0-7931708ced8a",
+  "path": "opencli-adapter-author",
+  "path_key": "opencli-adapter-author",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

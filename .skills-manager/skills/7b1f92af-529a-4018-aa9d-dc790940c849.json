@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7b1f92af-529a-4018-aa9d-dc790940c849",
+  "path": "youtube-thumbnail",
+  "path_key": "youtube-thumbnail",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

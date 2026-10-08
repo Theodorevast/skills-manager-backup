@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "71ec30d5-0f57-4a15-bcf3-f720c8b751b4",
+  "path": "animation-principles",
+  "path_key": "animation-principles",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

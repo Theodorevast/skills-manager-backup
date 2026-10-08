@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cb8a530-83e5-43cf-adfd-9035db6fd6c8",
+  "path": "beat-sync-editing",
+  "path_key": "beat-sync-editing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

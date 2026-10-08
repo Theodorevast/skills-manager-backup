@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ed91862-ef7b-443a-b76a-dcd5050a3a64",
+  "path": "eleven-music",
+  "path_key": "eleven-music",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
