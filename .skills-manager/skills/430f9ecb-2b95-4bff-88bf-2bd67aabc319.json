@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "430f9ecb-2b95-4bff-88bf-2bd67aabc319",
+  "path": "threejs-rain-snow-and-wet-surfaces",
+  "path_key": "threejs-rain-snow-and-wet-surfaces",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

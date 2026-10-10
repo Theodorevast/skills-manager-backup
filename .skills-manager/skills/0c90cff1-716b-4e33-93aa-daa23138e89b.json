@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0c90cff1-716b-4e33-93aa-daa23138e89b",
+  "path": "webgpu-threejs-tsl",
+  "path_key": "webgpu-threejs-tsl",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

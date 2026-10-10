@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4d9acb66-6d66-4a06-aa74-ea58a8d2083d",
+  "path": "threejs-gameplay-systems",
+  "path_key": "threejs-gameplay-systems",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

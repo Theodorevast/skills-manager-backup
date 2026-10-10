@@ -1,0 +1,4 @@
+interface:
+  display_name: "游戏交互易用性评估"
+  short_description: "Review game UI usability, friction, and fix priority"
+  default_prompt: "Use $game-interaction-usability-eval to review a game UI screenshot or flow for usability issues and concrete improvements."

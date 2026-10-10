@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1707f7c3-6fd3-4ef1-bda0-a057b79d5c47",
+  "path": "threejs-debug-profiler",
+  "path_key": "threejs-debug-profiler",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

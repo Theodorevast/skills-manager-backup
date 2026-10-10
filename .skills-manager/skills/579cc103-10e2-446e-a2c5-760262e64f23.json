@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "579cc103-10e2-446e-a2c5-760262e64f23",
+  "path": "game-juice",
+  "path_key": "game-juice",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

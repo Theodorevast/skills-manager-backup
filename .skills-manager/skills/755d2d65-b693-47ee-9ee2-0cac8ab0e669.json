@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "755d2d65-b693-47ee-9ee2-0cac8ab0e669",
+  "path": "threejs-game-ui-designer",
+  "path_key": "threejs-game-ui-designer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

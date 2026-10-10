@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b950b6a4-df35-48ea-b40d-b338b2428531",
+  "path": "game-ui-design",
+  "path_key": "game-ui-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9a63f3b-e80e-4720-9838-62cc060db272",
+  "path": "threejs-aaa-graphics-builder",
+  "path_key": "threejs-aaa-graphics-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

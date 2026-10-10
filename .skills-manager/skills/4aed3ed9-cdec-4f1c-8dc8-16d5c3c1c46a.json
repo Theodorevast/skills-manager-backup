@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4aed3ed9-cdec-4f1c-8dc8-16d5c3c1c46a",
+  "path": "img2threejs",
+  "path_key": "img2threejs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/img2threejs/img2threejs.git",
+    "subpath": null,
+    "branch": null
+  }
+}

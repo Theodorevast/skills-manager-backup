@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "281ddedb-bb44-4e69-bb3e-5f86ac5a417d",
+  "path": "threejs-image-pipeline",
+  "path_key": "threejs-image-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

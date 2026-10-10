@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1fee05f-751d-4a70-b12f-1f32886b8d2b",
+  "path": "threejs-game-director",
+  "path_key": "threejs-game-director",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

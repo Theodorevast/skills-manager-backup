@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "23c46fa3-8a03-45d2-bce3-045a3fabdfec",
+  "name": "gamedev",
+  "description": "跨引擎游戏通用：手感、反馈、界面评审",
+  "icon": null,
+  "sort_order": 999
+}

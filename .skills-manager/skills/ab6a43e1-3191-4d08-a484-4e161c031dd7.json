@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ab6a43e1-3191-4d08-a484-4e161c031dd7",
+  "path": "threejs-procedural-buildings-and-cities",
+  "path_key": "threejs-procedural-buildings-and-cities",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

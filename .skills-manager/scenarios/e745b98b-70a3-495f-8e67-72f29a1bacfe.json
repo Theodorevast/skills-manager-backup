@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "e745b98b-70a3-495f-8e67-72f29a1bacfe",
+  "name": "gamedev-threejs",
+  "description": "Web 游戏：three.js / WebGPU / TSL 画面、玩法、测试",
+  "icon": null,
+  "sort_order": 999
+}

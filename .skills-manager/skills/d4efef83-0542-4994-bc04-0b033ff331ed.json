@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d4efef83-0542-4994-bc04-0b033ff331ed",
+  "path": "threejs-visual-validation",
+  "path_key": "threejs-visual-validation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

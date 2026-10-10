@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4fe069f5-eb80-4168-9454-9e786762eb64",
+  "path": "threejs-bloom",
+  "path_key": "threejs-bloom",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
