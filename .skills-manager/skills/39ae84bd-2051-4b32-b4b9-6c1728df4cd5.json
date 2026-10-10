@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "39ae84bd-2051-4b32-b4b9-6c1728df4cd5",
+  "path": "game-assets",
+  "path_key": "game-assets",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
