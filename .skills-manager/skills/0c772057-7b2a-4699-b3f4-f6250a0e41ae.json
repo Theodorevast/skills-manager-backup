@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0c772057-7b2a-4699-b3f4-f6250a0e41ae",
+  "path": "team-sync",
+  "path_key": "team-sync",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
