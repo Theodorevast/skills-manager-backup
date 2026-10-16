@@ -16,6 +16,8 @@ description: 使用本机公共 GPT Image MCP、Tripo 直接 API 与 Blender 制
 
 ## 图片
 
+**出图优先用公司素材中台**（`vast-material` skill，命令 `vmc`）：模型更多，支持透明底、图生图、批量，结果可转存公司素材库。下面的本机生图工具在中台不可用或用户点名时使用。
+
 先调用 `asset_image_capabilities()` 查看当前工具限制；该调用只查本地配置，不证明供应商认证成功。实际 MCP 名称可能带客户端命名空间，以工具发现结果为准。
 
 | 工具 | 参数与用途 |

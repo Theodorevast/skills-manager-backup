@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "908e8617-21b0-49d9-9b13-b72f191c5647",
+  "path": "vast-material",
+  "path_key": "vast-material",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

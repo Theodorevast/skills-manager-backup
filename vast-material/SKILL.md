@@ -1,0 +1,95 @@
+---
+name: vast-material
+description: 用公司素材中台（vast-material.tripo3d.com）的命令行 vmc 生成图片或视频，查配额、查任务、下载结果、转存素材库。项目里需要出图、做贴图或图标、生成视频、看生成进度时优先用它，再考虑其他生图接口。3D 模型不在这里，走 game-assets 的 Tripo 流程。
+---
+
+# 素材中台（vmc）
+
+用户所在公司有一个素材中台，官方命令行 `vmc` 是专门给 AI 用的：输出 JSON，下单前先出计划。Claude、Codex、Grok 都能用，被派出去的写任务里也能用（已实测）。
+
+找不到 `vmc` 命令时用完整路径：`"$HOME/.local/bin/vmc"`。
+
+## 什么时候用它
+
+| 要做的 | 用什么 |
+|---|---|
+| 图片：概念图、参考图、贴图底色、图标、海报，含透明底、图生图、批量 | **vmc**（优先） |
+| 视频：文生视频、图生视频、首尾帧、有声视频 | **vmc** |
+| 3D 模型 | 不用 vmc，走 `game-assets` skill 里的 Tripo 流程 |
+| 中台网页上的模型素材生产、AI 语音、素材清洗、内容反推、Skill 助手、模板生视频 | 命令行不支持。告诉用户这一步需要在网页上手动做，不要尝试用浏览器自动操作 |
+| vmc 报配额用完或服务不可用 | 告诉用户；用户同意后才换用 `game-assets` 里的生图工具 |
+
+## 铁律：先给用户看计划，确认后才提交
+
+这一条和 vmc 自己的规则一致，**每一次真实生成都要遵守**：
+
+1. 先运行**不带 `--yes`** 的命令。vmc 会输出计划并以退出码 5 结束（`CONFIRMATION_REQUIRED`），计划里有模型、数量、配额前后、费用预估。
+2. 把计划原样告诉用户：用了哪个模型、出几张或几条、配额会从多少变成多少、费用多少。
+3. 用户明确同意后，**同一条命令**加 `--yes` 再运行。参数一个都不能改，改了就是新的计划，要重新确认。
+4. 只想看看要花多少：用 `--dry-run`。
+5. 不要为了"测试能不能用"去真的生成。测连通用 `vmc whoami`、`vmc quota`、`vmc models`，这三条不花钱。
+
+### 派给别家时
+
+被派出去的 AI 在无界面会话里，没法问用户。所以：
+
+- **发起方**先在自己的对话里拿到计划、得到用户确认，再派活。任务单里写明"用户已确认以下计划"，并给出**完整的命令**（带 `--yes`）。
+- 接活的一方只运行任务单里那条命令，原样运行，不改参数，不加量。任务单里没写"用户已确认"的，只能用 `--dry-run`，把计划写进结果交回。
+- 写任务的 `--paths` 要包含输出目录（见下）。生成任务优先派给 Grok（额度宽裕）；Claude、Codex 也可以。
+
+## 结果放哪
+
+放在当前项目里，和其他素材的规矩一致：
+
+```
+<项目>/assets/generated/vmc/<任务ID>/
+```
+
+- 用 `--out <项目>/assets/generated/vmc` 下载，vmc 会建 `<任务ID>` 子目录。
+- 把 vmc 输出的完整 JSON 存成同目录下的 `vmc-result.json`，里面有提示词、模型、参数和原始地址，以后要复现或追溯都靠它。
+- 原图是**母版**，不要覆盖、不要就地压缩。网页要压缩、引擎要导入，都写到项目的派生目录，并记下来源。
+- 需要放进公司素材库时用 `--folder <文件夹ID>`；文件夹 ID 问用户，不要猜。
+
+## 常用命令
+
+```bash
+vmc whoami                     # 当前登录用户
+vmc quota                      # 今日配额（图片按张，视频按条）和在途任务
+vmc models image               # 图片模型、版本、合法尺寸（服务端下发，每次现查）
+vmc models video               # 视频模型、时长、分辨率、比例、是否有声
+
+# 生图：先不带 --yes 拿计划，用户确认后加 --yes
+vmc image gen --prompt "…" --model gpt --size 1024x1024 --count 1 --out "<项目>/assets/generated/vmc"
+vmc image gen --prompt "…" --model gpt --background transparent --out "<项目>/assets/generated/vmc"     # 透明底
+vmc image gen --prompt "换成雪地背景" --ref ./a.png --model nanobanana --size 16:9 --out "<项目>/assets/generated/vmc"
+vmc image batch --file prompts.jsonl --model gpt --out "<项目>/assets/generated/vmc"                    # 每行一个 JSON 或纯文本提示词
+
+# 生视频
+vmc video gen --model kling-v3 --prompt "…" --duration 5 --ratio 16:9 --out "<项目>/assets/generated/vmc"
+vmc video gen --model seedance-2.5 --ref ./frame.png --prompt "…" --audio --out "<项目>/assets/generated/vmc"
+
+# 任务
+vmc task list --limit 5
+vmc task get img_123
+vmc task wait img_123 vid_45 --out "<项目>/assets/generated/vmc"
+vmc task cancel vid_45
+```
+
+模型、尺寸、时长、是否支持有声，**以 `vmc models` 的实时结果为准**，不要凭这份说明或记忆判断。
+
+## 出错时
+
+| 退出码 | 含义 | 怎么做 |
+|---|---|---|
+| 3 | 未登录或令牌过期（令牌 30 天有效） | 告诉用户在 Claude Code 输入框里运行 `! vmc login`，或在终端运行 `vmc login`。**不要替用户登录** |
+| 4 | 今日配额用完或在途任务太多 | 不要重试，告诉用户 |
+| 5 | 需要确认 | 正常流程，见铁律 |
+| 6 | 任务失败 | 把错误原样告诉用户，不要自动换参数重试 |
+| 7 | 网络或服务端错误 | 带 `--yes` 的提交可以原样重跑一次：服务端 10 分钟内按参数去重，输出 `replayed: true` 表示复用了已创建的任务 |
+
+## 不要做的
+
+- 不要读、打印或复制 `~/.config/vmc/credentials.json`，令牌不能出现在任务单、提示词、日志或项目文件里。
+- 不要在项目里运行 `vmc init`。这份共享 skill 已经覆盖它的内容，再写一份会让项目里出现两套说明。
+- 不要用浏览器自动操作中台网页。
+- 汇报时分开说：已提交、已生成、已下载到哪里、是否检查过。只引用这一次任务的结果。
